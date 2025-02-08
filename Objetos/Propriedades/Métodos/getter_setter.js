@@ -15,4 +15,3 @@ const pessoa = {
 
 
 console.log(pessoa.nomeCompleto);
-console.log(parts);
