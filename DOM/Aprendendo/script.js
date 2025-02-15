@@ -1,5 +1,8 @@
 const body = document.body;
-const div = document.createElement('div');
 
-div.innerText = 'Hello World!';
-body.append(div);
+const strong = document.createElement('strong');
+strong.innerText = 'Hello World!';
+
+body.append(strong);
+
+document.querySelector('#titulo').innerText = 'Olá mundo alterado!';
